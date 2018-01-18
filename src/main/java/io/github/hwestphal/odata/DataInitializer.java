@@ -24,7 +24,7 @@ public class DataInitializer implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
 	Customer customer = new Customer("C1");
-	customer.setName("Customer 1");
+	customer.setName("Cliente BCP");
 	
 	
 	
