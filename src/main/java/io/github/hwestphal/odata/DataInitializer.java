@@ -25,6 +25,9 @@ public class DataInitializer implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
 	Customer customer = new Customer("C1");
 	customer.setName("Customer 1");
+	
+	
+	
 	Product product1 = new Product("P1");
 	product1.setDescription(new Description("Product 1", "ABC"));
 	customer.addProduct(product1);
